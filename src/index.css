@@ -39,3 +39,33 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.location {
+  color: #f55a5a;
+  font-size: 20px;
+}
+
+.like > button {
+  width: 150px;
+  color: #f55a5a;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 1em;
+  border: 1px solid #f55a5a;
+  background-color: white;
+}
+
+.like > button:hover,
+.like-clicked > button:hover {
+  cursor: pointer;
+}
+
+.like-clicked > button {
+  width: 150px;
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 1em;
+  border: 1px solid #f55a5a;
+  background-color: #f55a5a;
+}
