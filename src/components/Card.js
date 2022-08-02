@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
+import LikeButton from "./LikeButton";
 
 export default function Card(props) {
   console.log(props);
@@ -18,6 +19,7 @@ export default function Card(props) {
         <div className="description">
           <p>{props.description}</p>
         </div>
+        <LikeButton />
       </div>
 
       <img src={props.url} className="img"></img>
